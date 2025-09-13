@@ -1,6 +1,6 @@
 # Mengedit Data
 
-<mark style="color:green;">`POST`</mark> `/manuscript-types`
+<mark style="color:green;">`PUT`</mark>`/manuscript-types/{id}`
 
 Endpoint ini untuk mengedit jenis naskah
 

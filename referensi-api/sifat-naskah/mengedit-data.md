@@ -1,6 +1,6 @@
 # Mengedit Data
 
-<mark style="color:green;">`POST`</mark> `/manuscript-characteristics/{id}`
+<mark style="color:green;">`PUT`</mark>`/manuscript-characteristics/{id}`
 
 Endpoint ini untuk mengedit sifat naskah
 
