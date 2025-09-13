@@ -41,3 +41,7 @@
   * [Get List Tembusan](referensi-api/group-tembusan/get-list-tembusan.md)
   * [Menambahkan Data](referensi-api/group-tembusan/menambahkan-data.md)
   * [Mengedit Data](referensi-api/group-tembusan/mengedit-data.md)
+* [Jenis Naskah](referensi-api/jenis-naskah/README.md)
+  * [Get Jenis Naskah](referensi-api/jenis-naskah/get-jenis-naskah.md)
+  * [Menambahkan Data](referensi-api/jenis-naskah/menambahkan-data.md)
+  * [Mengedit Data](referensi-api/jenis-naskah/mengedit-data.md)
