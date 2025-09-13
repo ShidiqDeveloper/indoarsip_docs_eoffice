@@ -45,3 +45,7 @@
   * [Get Jenis Naskah](referensi-api/jenis-naskah/get-jenis-naskah.md)
   * [Menambahkan Data](referensi-api/jenis-naskah/menambahkan-data.md)
   * [Mengedit Data](referensi-api/jenis-naskah/mengedit-data.md)
+* [Sifat Naskah](referensi-api/sifat-naskah/README.md)
+  * [Get Sifat Naskah](referensi-api/sifat-naskah/get-sifat-naskah.md)
+  * [Menambahkan Data](referensi-api/sifat-naskah/menambahkan-data.md)
+  * [Mengedit Data](referensi-api/sifat-naskah/mengedit-data.md)

@@ -1,8 +1,8 @@
-# Get Jenis Naskah
+# Get Sifat Naskah
 
-<mark style="color:green;">`GET`</mark>`/manuscript-types`
+<mark style="color:green;">`GET`</mark>`/manuscript-characteristics`
 
-Endpoint ini untuk mendapatkan list jenis naskah
+Endpoint ini untuk mendapatkan list sifat naskah
 
 **Headers**
 
@@ -13,11 +13,11 @@ Endpoint ini untuk mendapatkan list jenis naskah
 
 **Query String**
 
-| Name    | Type   | Description                                           |
-| ------- | ------ | ----------------------------------------------------- |
-| `limit` | number | Limitasi per halaman                                  |
-| `page`  | number | Filter untuk menuju halaman ke-n                      |
-| name    | string | Filter untuk mencari berdasarkan nama/kode/keterangan |
+| Name    | Type   | Description                                      |
+| ------- | ------ | ------------------------------------------------ |
+| `limit` | number | Limitasi per halaman                             |
+| `page`  | number | Filter untuk menuju halaman ke-n                 |
+| name    | string | Filter untuk mencari berdasarkan nama/keterangan |
 
 **Response**
 
@@ -29,10 +29,9 @@ Endpoint ini untuk mendapatkan list jenis naskah
   status: true,
   message: "Ditemukan!",
   data: {
-    manuscript_types: [
+    manuscript_characteristics: [
       {
         id: <int>,
-        code: <string>,
         name: <string>,
         description: <string>,
         is_active: <int>,

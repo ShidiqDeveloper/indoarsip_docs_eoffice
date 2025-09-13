@@ -1,8 +1,8 @@
 # Menambahkan Data
 
-<mark style="color:green;">`POST`</mark> `/manuscript-types`
+<mark style="color:green;">`POST`</mark> `/manuscript-characteristics`
 
-Endpoint ini untuk menambahkan jenis naskah
+Endpoint ini untuk menambahkan sifat naskah
 
 **Headers**
 
@@ -15,7 +15,6 @@ Endpoint ini untuk menambahkan jenis naskah
 
 | Name        | Type   | Description                  | Validation                  |
 | ----------- | ------ | ---------------------------- | --------------------------- |
-| `code`      | string | Kode jenis naskah            | required\|string\|max:255   |
 | `name`      | string | Nama jenis naskah            | required\|string\|max:255   |
 | description | string | Keterangan jenis naskah      | nullable\|string\|max:300   |
 | is\_active  | number | Indikasi status jenis naskah | required\|number\|enum(1,0) |
@@ -28,10 +27,9 @@ Endpoint ini untuk menambahkan jenis naskah
 {
   code: 201,
   status: true,
-  message: "Berhasil menambahkan jenis naskah!",
+  message: "Berhasil menambahkan sifat naskah!",
   data: {
     id: <int>,
-    code: <string>,
     name: <string>,
     description: <string>,
     is_active: <int>,
