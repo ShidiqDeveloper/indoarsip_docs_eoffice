@@ -1,8 +1,8 @@
-# Menambahkan Data
+# Copy of Menambahkan Data
 
-<mark style="color:green;">`POST`</mark> `/clasification-codes`
+<mark style="color:green;">`PUT`</mark> `/clasification-codes/{id}`&#x20;
 
-Endpoint untuk menambahkan data klasifikasi&#x20;
+Endpoint untuk mengedit data klasifikasi&#x20;
 
 **Headers**
 
@@ -24,12 +24,12 @@ Endpoint untuk menambahkan data klasifikasi&#x20;
 **Response**
 
 {% tabs %}
-{% tab title="201" %}
+{% tab title="200" %}
 ```json
 {
-  code: 201,
+  code: 200,
   status: true,
-  message: "Berhasil menambahkan kode klasifikasi!",
+  message: "Berhasil mengedit kode klasifikasi!",
   data: {
     id: <int>,
     name: <string>,
