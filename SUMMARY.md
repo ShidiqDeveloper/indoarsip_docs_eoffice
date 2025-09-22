@@ -53,6 +53,7 @@
   * [Menambahkan Data](referensi-api/sifat-naskah/menambahkan-data.md)
   * [Mengedit Data](referensi-api/sifat-naskah/mengedit-data.md)
   * [Set status](referensi-api/sifat-naskah/set-status.md)
+  * [Search Sifat Naskah](referensi-api/sifat-naskah/search-sifat-naskah.md)
 * [Penomoran Surat](referensi-api/penomoran-surat/README.md)
   * [Get Data](referensi-api/penomoran-surat/get-data.md)
   * [Menambahkan Data](referensi-api/penomoran-surat/menambahkan-data.md)
