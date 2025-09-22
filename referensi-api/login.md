@@ -13,10 +13,11 @@ Endpoint untuk login kedalam sistem
 
 **Body**
 
-| Name       | Type   | Description   |
-| ---------- | ------ | ------------- |
-| `email`    | string | Email user    |
-| `password` | string | Password user |
+| Name         | Type   | Description   |
+| ------------ | ------ | ------------- |
+| `email`      | string | Email user    |
+| `password`   | string | Password user |
+| remember\_me | bool   |               |
 
 **Response**
 
