@@ -61,3 +61,11 @@
   * [Get Data](referensi-api/kode-klasifikasi-arsip/get-data.md)
   * [Menambahkan Data](referensi-api/kode-klasifikasi-arsip/menambahkan-data.md)
   * [Mengedit Data](referensi-api/kode-klasifikasi-arsip/mengedit-data.md)
+
+***
+
+* [Template Naskah Dinas](template-naskah-dinas/README.md)
+  * [Get Data](template-naskah-dinas/get-data.md)
+  * [Menambahkan Template](template-naskah-dinas/menambahkan-template.md)
+  * [Get Detail Template](template-naskah-dinas/get-detail-template.md)
+  * [Edit Template](template-naskah-dinas/edit-template.md)

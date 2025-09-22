@@ -2,7 +2,7 @@
 
 <mark style="color:green;">`GET`</mark>`/manuscript-types/search`
 
-Endpoint untuk mencari jenis naskah yang status nya aktif
+Endpoint untuk mencari jenis naskah yang status nya aktif. Kalau keyword kosong, default tampilkan 10 by name ASC
 
 **Headers**
 
