@@ -70,3 +70,8 @@
   * [Menambahkan Template](template-naskah-dinas/menambahkan-template.md)
   * [Get Detail Template](template-naskah-dinas/get-detail-template.md)
   * [Edit Template](template-naskah-dinas/edit-template.md)
+* [Naskah Masuk](naskah-masuk/README.md)
+  * [Menambahkan Naskah](naskah-masuk/menambahkan-naskah.md)
+  * [Get Detail Naskah Masuk](naskah-masuk/get-detail-naskah-masuk.md)
+  * [Get Naskah Masuk](naskah-masuk/get-naskah-masuk.md)
+  * [Edit Naskah Masuk](naskah-masuk/edit-naskah-masuk.md)
