@@ -72,3 +72,5 @@
   * [Get Detail Naskah Masuk](referensi-api/naskah-masuk/get-detail-naskah-masuk.md)
   * [Get Naskah Masuk](referensi-api/naskah-masuk/get-naskah-masuk.md)
   * [Edit Naskah Masuk](referensi-api/naskah-masuk/edit-naskah-masuk.md)
+* [Tembusan](referensi-api/tembusan/README.md)
+  * [Get Naskah Tembusan](referensi-api/tembusan/get-naskah-tembusan.md)
