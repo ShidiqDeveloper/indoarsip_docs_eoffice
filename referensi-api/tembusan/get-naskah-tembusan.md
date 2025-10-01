@@ -43,13 +43,53 @@ Untuk bagian user\_destination, hanya mengambil yang group\_id nya null saja beg
         manuscript_received_date: <date>,
         manuscript_from: <string>,
         manuscript_description: <string>,
-        count_user_destination: <int>,
+        group_destination: {
+          id: <int>,
+          group_name: <string>
+        },
+        user_destination: [
+          {
+            id: <int>,
+            name: <string>,
+            nip: <string>,
+            role: {
+              id: <id>,
+              role_name: <string>
+            },
+            organization: {
+              id: <int>,
+              organization_name: <string>,
+              short_name: <string>
+              organization_code: <string>
+            }
+          }
+        ],
+        group_passthrough: {
+          id: <int>,
+          group_name: <string>,
+        },
+        user_passthrough: [
+          {
+            id: <int>,
+            name: <string>,
+            nip: <string>,
+            role: {
+              id: <id>,
+              role_name: <string>
+            },
+            organization: {
+              id: <int>,
+              organization_name: <string>,
+              short_name: <string>
+              organization_code: <string>
+            }
+          }
+        ],
         manuscript_characteristic: {
           id: <int>,
           name: <string>
         },
-        
-        is_proccessed_disposition: <int>,
+        is_read: <int>,
         manuscript_file: <string>, // Path ke file
         created_at: <timestamp>,
         updated_at: <timestamp>
